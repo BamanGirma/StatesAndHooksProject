@@ -27,7 +27,7 @@ export default class MyCounter extends Component {
 
     render() {
         return (
-          <div>
+          <div className='section'>
             <button onClick={this.allClicksCounter}>Click me</button>
             <CounterDisplayer count={this.state.count} />
             <EvenCounterDisplayer evenCount={this.state.evenCount} />
